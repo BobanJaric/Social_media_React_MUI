@@ -1,0 +1,88 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "User One",
+        "email": "user1@mail.com",
+        "password": "password1",
+        "postId":1,
+        "img":"https://avatars.githubusercontent.com/u/61892232?v=4",
+        "friends":[2,3]
+
+    }, {
+        "id": 2,
+        "name": "User Two",
+        "email": "user2@mail.com",
+        "password": "password2",
+        "postId":2,
+        "img":"https://avatars.githubusercontent.com/u/61892232?v=4",
+        "friends":[1]
+    },
+    {
+        "id": 3,
+        "name": "User Three",
+        "email": "user3@mail.com",
+        "password": "password3",
+        "postId":[5],
+        "img":"https://avatars.githubusercontent.com/u/61892232?v=4",
+        "friends":[1]
+    }
+],
+    "posts": [{
+        "id": 1,
+        "body": "Challange from User 1",
+        "userId": 1,
+        "likes":[1],
+        "comments":["Very nice picture"],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+    },
+    {
+        "id": 2,
+        "body": "Challange from User 2",
+        "userId": 2,
+        "likes":[1],
+        "comments":["Very very nice picture","Very very nice picture"],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+
+    },
+    {
+        "id": 3,
+        "body": "Challange from User 1 number 2",
+        "userId": 1,
+        "likes":[1,2],
+        "comments":[],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+    },
+    {
+        "id": 4,
+        "body": "Challange from User 2 number 2",
+        "userId": 2,
+        "likes":[],
+        "comments":[],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+    },
+    {
+        "id": 5,
+        "body": "Challange from User 1 number 3",
+        "userId": 1,
+        "likes":[],
+        "comments":[],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+    },
+    {
+        "id": 6,
+        "body": "Challange from User 3 number 1",
+        "userId": 3,
+        "likes":[1],
+        "comments":[],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+    },
+    {
+        "id": 7,
+        "body": "Challange from User 3 number 2",
+        "userId": 3,
+        "likes":[],
+        "comments":[],
+        "images":["https://live.staticflickr.com/4160/34037692450_0ca6487540_h.jpg" , "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hochbeet_aus_Naturstein.jpg" ]
+    }
+]
+}
